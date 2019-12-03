@@ -1,4 +1,9 @@
+# armbari-api-nodejs-client
+Node.js client library for accessing Apache Armbari APIs.
+
+
 # I'm trying to create a nodejs client for Armbari APIs
+
 
 # Add api adapter 
 We have to add adapters for rest api. In the top level, we use the api group to manage different resources.
