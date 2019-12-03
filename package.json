@@ -1,0 +1,26 @@
+{
+  "name": "armbari-ad-sync-service",
+  "version": "1.0.0",
+  "description": "Armbari admin user auto configure",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run compile",
+    "compile": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kai Chu",
+  "license": "ISC",
+  "dependencies": {
+    "gaxios": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "url-template": "^2.0.8"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "mocha": "^6.2.2",
+    "nock": "^11.7.0",
+    "typescript": "^3.7.2"
+  }
+}
